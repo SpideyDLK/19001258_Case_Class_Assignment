@@ -1,0 +1,448 @@
+INFO  time: initialize in 0.4s
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+INFO  no build target: using presentation compiler with only scala-library
+Aug 30, 2021 3:34:30 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+Aug 30, 2021 3:43:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.<init>(Unknown Source)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:359)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:358)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+Aug 30, 2021 4:14:34 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 30, 2021 4:14:34 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 30, 2021 4:14:34 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 30, 2021 4:14:35 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+Aug 30, 2021 4:44:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -1
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.<init>(Unknown Source)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:359)
+	at scala.Option.map(Option.scala:163)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:358)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:197)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:305)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:300)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:269)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:26)
+
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+Aug 30, 2021 5:03:03 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+Aug 30, 2021 5:03:03 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Aug 30, 2021 5:05:46 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+Aug 30, 2021 5:07:24 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace 'E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+Aug 30, 2021 5:09:31 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:948)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:467)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:387)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:379)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:364)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:397)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:86)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:119)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:76)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:191)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+WARN  no build target: E:\UCSC\2nd Year\1st Sem\SCS 2204 Functional Programming\Assignments\Case class\19001258.scala
+WARN  no build target: 
+INFO  shutting down Metals
